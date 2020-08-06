@@ -45,9 +45,9 @@ in this repo i trained a model to detect face masks using Google Colab.
 * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
 
 # Train on Google Colab
-* run code written one by one and make to change runtime type to GPU
-* at the end a zip file will be generated download it and copy new graph and paste it in object detection folder
-* Copy python scripts model_webcam and model_image change code according to your data such as number of classes and name of model
+* run code written one by one and make sure to change runtime type to GPU
+* at the end a zip file will be generated download it and copy new graph and paste it in the object detection folder
+* Copy python scripts model_webcam and model_image, then change the scripts according to your data such as number of classes and name of model.
 
 
 
