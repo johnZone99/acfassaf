@@ -16,7 +16,8 @@ in this repo i trained a model to detect face masks using Google Colab.
     * in 183, 185  change input_path and label_map_path
 * Copy all folder in mask_dataset except .idea to your models-> object_detection folder
 * In training folder
- * Create object-detection.pbtxt file and write in the format 
+ * Create object-detection.pbtxt file and write in the format, based on your classes and name you want to appear once it detects the object
+
 	    
      
 		 item {
@@ -31,8 +32,6 @@ in this repo i trained a model to detect face masks using Google Colab.
 
     
     
-
-* Based on your classes and name you want to appear once it detects the object
 
 * copy the files from legacy to object detection
 * Copy object-detection.pbtxt from training folder to data folder
