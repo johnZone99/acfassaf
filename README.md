@@ -1,6 +1,9 @@
 # Train an object detection model using Tensorflow
 in this repo i trained a model to detect face masks using Google Colab.
 
+![aaaaaa](https://user-images.githubusercontent.com/60849096/89512719-49d9aa00-d7dc-11ea-9fd2-7f7ee5ec49b7.png)
+
+
 # SETUP
 * First you need to setup your dataset and perform the annotations for the data, my data is already setup and available at mask_dataset
 * Download the repo from https://github.com/tensorflow/models and rename it to models, then create tensorflow1 directory in c drive and move models inside tensorflow1 
@@ -43,10 +46,11 @@ in this repo i trained a model to detect face masks using Google Colab.
 * Next go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and  download protoc 3.4 protoc-3.4.0-win32.zip
     * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
 
+    * upload the models folder to Google Drive and put it in a new tensorflow folder, Here is the output for my case : 
 # Train on Google Colab
 * run code written one by one and make sure to change runtime type to GPU
 * at the end a zip file will be generated download it and copy new graph and paste it in the object detection folder
 * Copy python scripts model_webcam and model_image, then change the scripts according to your data such as number of classes and name of model.
 
-
+i followed Bengemon825/TF_Object_Detection2020 repository 
 
