@@ -16,18 +16,20 @@ in this repo i trained a model to detect face masks using Google Colab.
 * Copy all folder in mask_dataset except .idea to your models-> object_detection folder
 * In training folder
 	    Create object-detection.pbtxt file and write in the format 
-      ```
-item {
-  id: 1
-  name: 'nine'
-}
+	    
+     
+		    item {
+		  id: 1
+		  name: 'nine'
+		}
 
-item {
-  id: 2
-  name: 'ten'
-}
+		item {
+		  id: 2
+		  name: 'ten'
+		}
+
     
-    ```
+    
 
 Based on your classes and name you want to appear once it detects the object
 
