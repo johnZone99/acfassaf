@@ -15,8 +15,7 @@ in this repo i trained a model to detect face masks using Google Colab.
     * in line 172, 174 change input_path and label_map_path
     * in 183, 185  change input_path and label_map_path
 * Copy all folder in mask_dataset except .idea to your models-> object_detection folder
-* In training folder
- * Create object-detection.pbtxt file and write in the format, based on your classes and name you want to appear once it detects the object
+* In training folder, Create object-detection.pbtxt file and write in the format, based on your classes and name you want to appear once it detects the object
 
 	    
      
@@ -36,13 +35,13 @@ in this repo i trained a model to detect face masks using Google Colab.
 * copy the files from legacy folder to object detection folder
 * Copy object-detection.pbtxt from training folder to data folder
 * Download anaconda and run 
- * Create a new anaconda environment: conda create -n tf python=3.7
- * Then type: conda activate ‘name of new env’
- * to upgrade pip : python -m pip install --upgrade pip setuptools    
- * Run this command to download needed packages : pip install TensorFlow==1.15 lxml pillow matplotlib jupyter contextlib2 cython tf_slim   
+    * Create a new anaconda environment: conda create -n tf python=3.7
+    * Then type: conda activate ‘name of new env’
+    * to upgrade pip : python -m pip install --upgrade pip setuptools    
+    * Run this command to download needed packages : pip install TensorFlow==1.15 lxml pillow matplotlib jupyter contextlib2 cython tf_slim   
 
 * Next go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and  download protoc 3.4 protoc-3.4.0-win32.zip
- * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
+    * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
 
 # Train on Google Colab
 * run code written one by one and make sure to change runtime type to GPU
