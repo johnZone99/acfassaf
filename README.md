@@ -9,7 +9,7 @@ in this repo i trained a model to detect face masks using Google Colab.
 * I chose ssd_mobilenet_v1_coco
         * download the model and move it to mask_dataset folder
         download ssd_mobilenet_v1_pets.config from sample configs in the same page and edit it based on your dataset and paths then move it to mask_dataset -> training
-              >>>>>>what you need to change	
+	>>>>>>what you need to change	
                 num_classes based on your dataset
 	              fine tune checkpoint in line 158  
 	              in line 172 174 change input_path and label_map_path
