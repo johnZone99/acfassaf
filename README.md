@@ -44,7 +44,7 @@ Note: you can skip this step if would like to use the same dataset, download the
     * to upgrade pip : python -m pip install --upgrade pip setuptools    
     * Run this command to download needed packages : pip install TensorFlow==1.15 lxml pillow matplotlib jupyter contextlib2 cython tf_slim   
 
-* Next go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and  download protoc 3.4 protoc-3.4.0-win32.zip
+* Next go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and  download protoc-3.4.0-win32.zip
     * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
 
     * upload the models folder to Google Drive and put it in a new tensorflow folder.
