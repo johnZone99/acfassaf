@@ -7,7 +7,7 @@ in this repo i trained a model to detect face masks using Google Colab.
 * Choose the model you are going to use based on speed and accuracy you can check models at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md
 
 * I chose ssd_mobilenet_v1_coco
-        * download the model and move it to mask_dataset folder
+download the model and move it to mask_dataset folder <space><space><space><space>
         download ssd_mobilenet_v1_pets.config from sample configs in the same page and edit it based on your dataset and paths then move it to mask_dataset -> training
 	>>>>>>what you need to change	
                 num_classes based on your dataset
