@@ -18,7 +18,7 @@ in this repo i trained a model to detect face masks using Google Colab.
 	    Create object-detection.pbtxt file and write in the format 
 	    
      
-		    item {
+		 item {
 		  id: 1
 		  name: 'nine'
 		}
