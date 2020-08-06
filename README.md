@@ -33,7 +33,7 @@ in this repo i trained a model to detect face masks using Google Colab.
     
     
 
-* copy the files from legacy to object detection
+* copy the files from legacy folder to object detection folder
 * Copy object-detection.pbtxt from training folder to data folder
 * Download anaconda and run 
  * Create a new anaconda environment: conda create -n tf python=3.7
