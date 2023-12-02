@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy the POM file
 COPY pom.xml .
 
+# Install Maven dependencies (only if pom.xml has changed)
+RUN mvn install -DskipTests
+
 # Copy the entire project (excluding the target directory to reduce image size)
 COPY src ./src
 
