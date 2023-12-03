@@ -17,14 +17,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @EnableWebSecurity
 public class WebSecurityConfig implements WebMvcConfigurer {
 
-    @Bean
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http
-                .cors(withDefaults());
-        return http.build();
-    }
-
-
+   
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
 
