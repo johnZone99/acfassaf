@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = {"http://localhost:4200", "https://aymen-nacer.github.io/To-Do-List-App-with-User-Authentication/"})
 @RestController
 @RequestMapping("/api/todos")
 public class TaskController {
