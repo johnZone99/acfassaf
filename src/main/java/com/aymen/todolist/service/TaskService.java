@@ -25,6 +25,7 @@ public class TaskService {
     public Task createTask(String taskDescription) {
         Task task = new Task();
         task.setTaskDescription(taskDescription);
+        System.out.println("task to be added is" + task);
         return taskRepository.save(task);
     }
 
@@ -34,7 +35,7 @@ public class TaskService {
         if (optionalTask.isPresent()) {
             Task existingTask = optionalTask.get();
 
-            existingTask.setComplete(!(existingTask.isComplete()));
+            existingTask.setComplete(!(existingTask.getComplete()));
 
             return taskRepository.save(existingTask);
         } else {

@@ -36,10 +36,10 @@ public class Task {
 
     }
 
-    public Task(Long taskId, String taskDescription, boolean isComplete, Timestamp createdAt) {
+    public Task(Long taskId, String taskDescription, boolean complete, Timestamp createdAt) {
         this.task_id = taskId;
         this.task_description = taskDescription;
-        this.complete = isComplete;
+        this.complete = complete;
         this.created_at = createdAt;
     }
 
@@ -59,7 +59,7 @@ public class Task {
         this.task_description = taskDescription;
     }
 
-    public boolean isComplete() {
+    public boolean getComplete() {
         return complete;
     }
 
