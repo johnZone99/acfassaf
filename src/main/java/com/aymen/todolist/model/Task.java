@@ -16,6 +16,7 @@ import java.sql.Timestamp;
 @Entity(name="tasks")
 public class Task {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false)
     private Long task_id;
 
