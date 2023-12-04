@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:4200", "https://aymen-nacer.github.io/To-Do-List-App-with-User-Authentication/"})
 @RestController
 @RequestMapping("/api/todos")
 public class TaskController {
@@ -26,8 +25,8 @@ public class TaskController {
 
     // Endpoint to create a new todo
     @PostMapping
-    public ResponseEntity<Task> createTodo(@RequestBody Task task) {
-        Task createdTodo = taskService.createTask(task);
+    public ResponseEntity<Task> createTodo(@RequestBody String taskDescription) {
+        Task createdTodo = taskService.createTask(taskDescription);
         return new ResponseEntity<>(createdTodo, HttpStatus.CREATED);
     }
 
