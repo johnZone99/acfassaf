@@ -16,7 +16,7 @@ import java.sql.Timestamp;
 @Entity(name="tasks")
 public class Task {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false)
     private Long task_id;
 
